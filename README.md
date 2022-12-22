@@ -32,5 +32,17 @@ git branch -m master # 将当前分支（temp_branch）重命名为master
 git push -f origin master # 将更新名称后的主分支强制推送到远程仓库
 ```
 
+- 为`Git`配置全局代理
+
+```bash
+git config --global http.sslverify false
+git config --global http.proxy http://127.0.0.1:你的代理端口
+git config --global https.proxy http://127.0.0.1:你的代理端口
+# 删除重置上述参数
+git config --global --unset http.sslverify
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+```
+
 
 
