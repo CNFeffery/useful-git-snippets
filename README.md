@@ -1,5 +1,5 @@
 # useful-git-snippets
-记录一些实用的git命令片段😇
+记录一些实用的git命令片段（以及一些技巧备忘）😇
 
 ---
 
@@ -34,7 +34,7 @@ git push -f origin master # 将更新名称后的主分支强制推送到远程�
 
 - 为`Git`配置全局代理
 
-```bash
+``` bash
 git config --global http.sslverify false
 git config --global http.proxy http://127.0.0.1:你的代理端口
 git config --global https.proxy http://127.0.0.1:你的代理端口
@@ -43,6 +43,10 @@ git config --global --unset http.sslverify
 git config --global --unset http.proxy
 git config --global --unset https.proxy
 ```
+
+- 清除当前设备上的`Github`已登录鉴权账户信息
+
+<center ><img src="./images/清除当前设备上的Github已登录鉴权账户信息.png"/></center>
 
 
 
