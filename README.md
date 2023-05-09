@@ -48,5 +48,11 @@ git config --global --unset https.proxy
 
 <center ><img src="./images/清除当前设备上的Github已登录鉴权账户信息.png"/></center>
 
+- 修改最近一次commit备注信息
 
+```bash
+git commit --amend
+```
+
+　　接着进入`vim`编辑保存即可
 
