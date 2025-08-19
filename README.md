@@ -56,3 +56,8 @@ git commit --amend
 
 　　接着进入`vim`编辑保存即可
 
+- 仅`clone`目标仓库的指定单一分支
+
+```bash
+git clone -b <branchname> --single-branch <remote-repo-url>
+```
